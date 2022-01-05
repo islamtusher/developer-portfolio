@@ -2,23 +2,52 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 .container{
     margin: 0 50px;
 }
 .flex-content{
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
-}
-.set-width{
-    width: 40%;
-    height: 500px;
-    border: 5px solid red;
-}
-.left{
     
 }
-.right{
-   
+.set-width{
+    width: 550px;
+    /* padding: 60px 0 0 0; */
+    /* border: 5px solid red; */
+}
+.banner-title{
+    padding-top: 100px;
+}
+.banner-heading {
+    border-left: 4px solid #FF5959;
+    padding-left: 10px;
+    height: 115px;
+}
+.banner-heading h1{
+    font-size: 70px;
+    line-height: 30px;
+    font-family: 'Playfair Display', serif;
+}
+.banner-heading span{
+   color: #FFAD5A;
+}
+.banner-title p{
+   font-size: large;
+   margin: 40px 0 30px 0;
+   line-height: 35px;
+}
+.banner-title .explore-btn{
+   font-size: large;
+   padding: 15px 30px;
+   background-color: #FF5959;
+   color: white;
+   border-radius: 5px;
+   border: none;
+
+}
+.banner-person img{
+   width: 90%;
+   padding-top: 50px;
 }
