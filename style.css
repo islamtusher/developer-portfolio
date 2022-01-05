@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: 0 50px;
+}
+.flex-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.set-width{
+    width: 40%;
+    height: 500px;
+    border: 5px solid red;
+}
+.left{
+    
+}
+.right{
+   
+}
