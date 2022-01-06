@@ -122,6 +122,9 @@ body{
     text-align: center;
     font-size: 50px;
 }
+.contact-section span{
+    color: #ffa449;
+}
 .contact-part{
     display: flex;
     justify-content: space-between;
