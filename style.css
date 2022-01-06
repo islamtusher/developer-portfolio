@@ -6,6 +6,7 @@ body{
 .container{
     margin: 0 100px;
 }
+/* Common classes */
 .flex-content{
     display: flex;
     justify-content: space-between; 
@@ -13,13 +14,33 @@ body{
 .set-width{
     width: 550px;
 }
+.p-style{
+    font-size: large;
+    margin: 40px 0 30px 0;
+    line-height: 35px;
+ }
+ .btn{
+    font-size: large;
+    padding: 15px 30px;
+    background-color: #f35e5e;
+    color: white;
+    border-radius: 5px;
+    border: none;
+ }
+ .btn:hover{
+    background-color: #ff4e4e;
+    color: white;
+    cursor: pointer;
+    
+ }
+ /* Top Banner start */
 .banner-title{
     padding-top: 100px;
 }
 .banner-heading {
     border-left: 4px solid #FF5959;
     padding-left: 10px;
-    height: 115px;
+    height: 135px;
 }
 .banner-heading h1{
     font-size: 70px;
@@ -28,19 +49,6 @@ body{
 }
 .banner-heading span{
    color: #FFAD5A;
-}
-.banner-title p{
-   font-size: large;
-   margin: 40px 0 30px 0;
-   line-height: 35px;
-}
-.banner-title .explore-btn{
-   font-size: large;
-   padding: 15px 30px;
-   background-color: #FF5959;
-   color: white;
-   border-radius: 5px;
-   border: none;
 }
 .banner-person img{
    width: 90%;
@@ -52,11 +60,9 @@ body{
     width: 350px;
     padding: 30px;
     border-radius: 30px;
-   
 }
 .flex-cart{
     display: flex;
-    /* justify-content: space-between; */
 }
 #mission{
     background-color: #ecf5f7;
@@ -77,3 +83,95 @@ body{
 .mission-heading span{
     color: #FFAD5A;
 }
+
+/* No limits to develop */
+.developing-part{
+    display: flex;
+    justify-content: space-between;
+    background-image: url(/images/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 300px 280px;
+}
+#limitation{
+    background-position: left center;
+    padding: 100px 100px 50px 100px;
+}
+#community{
+    background-position: 100% 100%;
+    padding: 50px 100px 100px 100px; 
+}
+.developing-part .dev-image{
+    width: 70%;
+}
+.dev-image img{
+    width: 500px;
+}
+.developing-part #dev-limits{
+   padding: 50px 0px 0px 100px; 
+}
+.developing-part #dev-community{
+   padding: 50px 100px 0px 0px; 
+}
+.developing-part h1{
+    font-size: 45px;
+    color: #333333;
+    margin: 0;
+}
+/* contact part start */
+.contact-section h1{
+    text-align: center;
+    font-size: 50px;
+}
+.contact-part{
+    display: flex;
+    justify-content: space-between;
+    background-color:#0B0D17;
+    padding: 150px;
+}
+.contact-info{
+    color: blanchedalmond;
+}
+
+.contact-info span{
+    color: coral;
+}
+.social-media a{
+    margin-top: 10px;
+    text-decoration: none;
+    color: rgb(120, 173, 253);
+}
+.social-media a:hover{
+    color: rgb(188, 215, 255);
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+}
+.message input{
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(208, 242, 255);
+}
+.message label{
+    color: cornsilk;
+}
+/* Footer section start */
+.footer{
+    width: 100%;
+    background-color:#0B0D17;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+.footer h1{
+    font-family: 'Lobster', cursive;
+    font-weight:normal;
+}
+.footer span{
+    color:#FF5959; 
+}
+.footer p{
+   font-size: 18px;
+   color: #D9DBE1;
+}
+
